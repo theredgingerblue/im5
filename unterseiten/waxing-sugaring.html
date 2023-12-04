@@ -31,11 +31,9 @@
       <span></span>
       
         <ul id="menu">
-        <a href="../index.html"><li>Home</li></a>
-        <a href="#"><li>Timeline</li></a>
-        <a href="methoden.html"><li>Haarentfernungsmethoden</li></a>
-        <a href="#"><li>Contact</li></a>
-        <a href="" target="_blank"><li>Show me more</li></a>
+          <a href="/"><li>Home</li></a>
+          <a href="/#timeline"><li>Timeline</li></a>
+          <a href="methoden.html"><li>Haarentfernungsmethoden</li></a>
       </ul>
     </div>
   </nav>
@@ -45,30 +43,35 @@
     <h2> WAXING / SUGARING </h2>
 </div>
     <p>Beim Waxing wird das Wachs mit der Haarwuchsrichtung aufgetragen 
-    und entgegen des Haarwuchses entfernt. Beim Sugaring ist es genau anders,
-    sodass weniger Haare abbrechen als beim Waxing. 
+    und entgegen des Haarwuchses entfernt. <br> Beim Sugaring ist es genau anders,
+    sodass weniger Haare abbrechen als beim Waxing. <br>
     Zudem dringt der Zucker in den Haarkanal ein und umschließt das Haar tief an der Wurzel. </p>
 
-    <button id="zurueckButton" onclick="window.history.back()"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg></button>
+    <!--Zurück-Button-->
+    <button id="zurueckButton" class="custom-btn btn" onclick="window.history.back()">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="#CBC5EA">
+        <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg></button>
 
 
     <!--Bild-Galerie-->
 <div class="container" data-aos="fade-up">
   <main class="gallery">
 <figure>
-  <img src="../Bilder/Waxen.jpeg" alt="Haare an den Beinen"/>
+  <img src="../Bilder/Waxen.jpeg" alt="Haare an den Beinen" data-large="../Bilder/Waxen.jpeg" class="small-image"/>
 </figure>
  <figure>
-  <img src="../Bilder/Waxen_2.jpeg" alt="Haare am Bauch" />
+  <img src="../Bilder/Waxen_2.jpeg" alt="Haare am Bauch" data-large="../Bilder/Waxen_2.jpeg" class="small-image" />
 </figure>
  <figure>
-  <img src="../Bilder/waxing-sugaring/How Speed Waxing Can Add Value & Revenue to Your Business.jpeg" alt="Achselhaar-Kamm" />
+  <img src="../Bilder/waxing-sugaring/How Speed Waxing Can Add Value & Revenue to Your Business.jpeg" alt="Achselhaar-Kamm" data-large="../Bilder/waxing-sugaring/How Speed Waxing Can Add Value & Revenue to Your Business.jpeg" class="small-image" />
 </figure>
 <figure>
-  <img src="../Bilder/waxing-sugaring/Premium Photo Sugaring procedure on legs done by a spa specialist during a procedure at the salon.jpeg" alt="Haare an den Beinen" />
+  <img src="../Bilder/waxing-sugaring/Premium Photo Sugaring procedure on legs done by a spa specialist during a procedure at the salon.jpeg" alt="Haare an den Beinen" data-large="../Bilder/waxing-sugaring/Premium Photo Sugaring procedure on legs done by a spa specialist during a procedure at the salon.jpeg" class="small-image" />
 </figure>
 </main>
-
+  <div class="modal" id="image-modal">
+  <span class="close" id="close-button">&times;</span>
+  <img class="modal-content" id="large-image">
 </div>
 
     <!--AOS initiieren-->

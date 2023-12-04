@@ -31,11 +31,9 @@
       <span></span>
       
         <ul id="menu">
-        <a href="../index.html"><li>Home</li></a>
-        <a href="#"><li>Timeline</li></a>
-        <a href="methoden.html"><li>Haarentfernungsmethoden</li></a>
-        <a href="#"><li>Contact</li></a>
-        <a href="" target="_blank"><li>Show me more</li></a>
+          <a href="/"><li>Home</li></a>
+          <a href="/#timeline"><li>Timeline</li></a>
+          <a href="methoden.html"><li>Haarentfernungsmethoden</li></a>
       </ul>
     </div>
   </nav>
@@ -44,31 +42,38 @@
   <div class="titel" data-aos="zoom-in">
     <h2>LASERN</h2>
 </div>
-    <p>Die Haare werden mithilfe eines Lasergerätes entfernt. Das kann unter anderem sehr schmerzhaft sein. Die Haare werden beim Lasern mithilfe von Lichtimpulsen aus der Haut gebrannt (idk actually). </p>
+    <p>Die Haare werden mithilfe eines Lasergerätes entfernt. <br> 
+      Das kann unter anderem sehr schmerzhaft sein. Die Haare werden beim Lasern mithilfe von Lichtimpulsen aus der Haut gebrannt. </p>
 
+    <!--Zurück-Button-->
+    <button id="zurueckButton" class="custom-btn btn" onclick="window.history.back()">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="#CBC5EA">
+        <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg></button>
 
     <!--Bild-Galerie-->
 <div class="container" data-aos="fade-up">
   <main class="gallery">
 <figure>
-  <img src="../Bilder/Epilieren/4a5jR4K2.jpeg" alt="Haare an den Beinen"/>
+  <img src="../Bilder/Epilieren/4a5jR4K2.jpeg" alt="Haare an den Beinen" data-large="../Bilder/Epilieren/4a5jR4K2.jpeg" class="small-image"/>
 </figure>
  <figure>
-  <img src="../Bilder/Epilieren/5YBSSGQj.jpeg" alt="Haare am Bauch" />
+  <img src="../Bilder/Epilieren/5YBSSGQj.jpeg" alt="Haare am Bauch" data-large="../Bilder/Epilieren/5YBSSGQj.jpeg" class="small-image"/>
 </figure>
  <figure>
-  <img src="../Bilder/Epilieren/Laser Hair Removal.jpeg" alt="Achselhaar-Kamm" />
+  <img src="../Bilder/Epilieren/Laser Hair Removal.jpeg" alt="Achselhaar-Kamm" data-large="../Bilder/Epilieren/Laser Hair Removal.jpeg" class="small-image" />
 </figure>
 <figure>
-  <img src="../Bilder/Epilieren/Premium Photo Laser hair removal on the hand on a light background hair removal depilation.jpeg" alt="Haare an den Beinen" />
+  <img src="../Bilder/Epilieren/Premium Photo Laser hair removal on the hand on a light background hair removal depilation.jpeg" alt="Haare an den Beinen" data-large="../Bilder/Epilieren/Premium Photo Laser hair removal on the hand on a light background hair removal depilation.jpeg" class="small-image"/>
 </figure>
 <figure>
-  <img src="../Bilder/Epilieren/VfzVKwz8.jpeg" alt="Intimbehaarung" />
+  <img src="../Bilder/Epilieren/VfzVKwz8.jpeg" alt="Intimbehaarung" data-large="../Bilder/Epilieren/VfzVKwz8.jpeg" class="small-image" />
 </figure>
 <figure>
-  <img src="../Bilder/Epilieren/Épilation à la lumière pulsée tout savoir sur cette technique.jpeg" />
+  <img src="../Bilder/Epilieren/Épilation à la lumière pulsée tout savoir sur cette technique.jpeg" data-large="../Bilder/Epilieren/Épilation à la lumière pulsée tout savoir sur cette technique.jpeg" class="small-image"/>
 </figure>
-
+<div class="modal" id="image-modal">
+  <span class="close" id="close-button">&times;</span>
+  <img class="modal-content" id="large-image">
 
 </main>
 

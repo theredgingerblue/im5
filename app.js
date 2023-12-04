@@ -22,6 +22,6 @@ window.addEventListener("click", (event) => {
 });
 
 //Zurück-Button auf den Seiten, die auf die jeweils vorherige Seite zurückleitet.
-const zurueckButton = document.getElementById("zurueckButton");
+const zurueckButton = document.getElementsById("zurueckButton");
 
 

@@ -31,11 +31,9 @@
       <span></span>
       
         <ul id="menu">
-        <a href="../index.html"><li>Home</li></a>
-        <a href="#"><li>Timeline</li></a>
-        <a href="methoden.html"><li>Haarentfernungsmethoden</li></a>
-        <a href="#"><li>Contact</li></a>
-        <a href="" target="_blank"><li>Show me more</li></a>
+          <a href="/"><li>Home</li></a>
+          <a href="/#timeline"><li>Timeline</li></a>
+          <a href="methoden.html"><li>Haarentfernungsmethoden</li></a>
       </ul>
     </div>
   </nav>
@@ -46,37 +44,44 @@
 </div>
     <p>Wenn man Körperbehaarung jeglicher Art mithilfe eines Rasierers entfernt. Die Haarwurzel innerhalb der Haut wird dabei nicht beschädigt. </p>
 
+    <!--Zurück-Button-->
+    <button id="zurueckButton" class="custom-btn btn" onclick="window.history.back()">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="#CBC5EA">
+        <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg></button>
+
 
     <!--Bild-Galerie-->
 <div class="container" data-aos="fade-up">
   <main class="gallery">
 <figure>
-  <img src="../Bilder/Rasieren/The Black Girls' Guide To Shaving.jpeg" alt="Beine rasieren"/>
+  <img src="../Bilder/Rasieren/The Black Girls' Guide To Shaving.jpeg" alt="Beine rasieren" data-large="../Bilder/Rasieren/The Black Girls' Guide To Shaving.jpeg" class="small-image"/>
 </figure>
  <figure>
-  <img src="../Bilder/Rasieren/How to shave bikini area to prevent ingrown hairs.jpeg" alt="Intimbereich rasieren" />
+  <img src="../Bilder/Rasieren/How to shave bikini area to prevent ingrown hairs.jpeg" alt="Intimbereich rasieren" data-large="../Bilder/Rasieren/How to shave bikini area to prevent ingrown hairs.jpeg" class="small-image"/>
 </figure>
  <figure>
-  <img src="../Bilder/Rasieren_4.jpeg" alt="Bein in der Luft rasieren" />
+  <img src="../Bilder/Rasieren_4.jpeg" alt="Bein in der Luft rasieren" data-large="../Bilder/Rasieren_4.jpeg" class="small-image"/>
 </figure>
 <figure>
-  <img src="../Bilder/Rasierhobel.jpeg" alt="Rasierhobel" />
+  <img src="../Bilder/Rasierhobel.jpeg" alt="Rasierhobel" data-large="../Bilder/Rasierhobel.jpeg" class="small-image" />
 </figure>
 <figure>
-  <img src="../Bilder/Rasier_2.jpeg" alt="Rasierer" />
+  <img src="../Bilder/Rasier_2.jpeg" alt="Rasierer" data-large="../Bilder/Rasier_2.jpeg" class="small-image" />
 </figure>
 <figure>
-  <img src="../Bilder/Rasieren/c6FYys5c.jpeg" alt="Rasierte Frauenbeine" />
+  <img src="../Bilder/Rasieren/c6FYys5c.jpeg" alt="Rasierte Frauenbeine" data-large="../Bilder/Rasieren/c6FYys5c.jpeg" class="small-image"/>
 </figure>
 <figure>
-  <img src="../Bilder/Rasieren/Should Women Shave Their Faces and Will Hair Grow Back Thicker With Shaving .jpeg" alt="Weibliche Gesichtsrasur" />
+  <img src="../Bilder/Rasieren/Should Women Shave Their Faces and Will Hair Grow Back Thicker With Shaving .jpeg" alt="Weibliche Gesichtsrasur" data-large="../Bilder/Rasieren/Should Women Shave Their Faces and Will Hair Grow Back Thicker With Shaving .jpeg" class="small-image"/>
 </figure>
 <figure>
-  <img src="../Bilder/Rasieren/7Z5yTKC1.jpeg" alt="Glitzer-Rasur" />
+  <img src="../Bilder/Rasieren/7Z5yTKC1.jpeg" alt="Glitzer-Rasur" data-large="../Bilder/Rasieren/7Z5yTKC1.jpeg" class="small-image"/>
 </figure>
 
 </main>
-
+<div class="modal" id="image-modal">
+  <span class="close" id="close-button">&times;</span>
+  <img class="modal-content" id="large-image">
 </div>
 
     <!--AOS initiieren-->

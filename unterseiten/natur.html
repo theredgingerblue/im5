@@ -31,11 +31,9 @@
       <span></span>
       
         <ul id="menu">
-        <a href="/IM5/index.html"><li>Home</li></a>
-        <a href=""><li>Timeline</li></a>
-        <a href="methoden.html"><li>Haarentfernungsmethoden</li></a>
-        <a href="#"><li>Contact</li></a>
-        <a href="" target="_blank"><li>Show me more</li></a>
+          <a href="/"><li>Home</li></a>
+          <a href="/#timeline"><li>Timeline</li></a>
+          <a href="methoden.html"><li>Haarentfernungsmethoden</li></a>
       </ul>
     </div>
   </nav>
@@ -46,35 +44,42 @@
 </div>
     <p>Wenn man die Haare einfach wachsen lässt. </p>
 
+    <!--Zurück-Button-->
+    <button id="zurueckButton" class="custom-btn btn" onclick="window.history.back()">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="#CBC5EA">
+        <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg></button>
+
 
     <!--Bild-Galerie-->
 <div class="container" data-aos="fade-up">
   <main class="gallery">
 <figure>
-  <img src="../Bilder/Natur/billie-body-hair-04b.jpg" alt="Haare an den Beinen"/>
+  <img src="../Bilder/Natur/billie-body-hair-04b.jpg" alt="Haare an den Beinen" data-large="../Bilder/Natur/billie-body-hair-04b.jpg" class="small-image"/>
 </figure>
  <figure>
-  <img src="../Bilder/Natur/billie-body-hair-05.jpg" alt="Haare am Bauch" />
+  <img src="../Bilder/Natur/billie-body-hair-05.jpg" alt="Haare am Bauch" data-large="../Bilder/Natur/billie-body-hair-05.jpg" class="small-image"/>
 </figure>
  <figure>
-  <img src="../Bilder/Natur/billie-body-hair-14.jpg" alt="Achselhaar-Kamm" />
+  <img src="../Bilder/Natur/billie-body-hair-14.jpg" alt="Achselhaar-Kamm" data-large="../Bilder/Natur/billie-body-hair-14.jpg" class="small-image" />
 </figure>
 <figure>
-  <img src="../Bilder/Natur/billie-body-hair-16.jpg" alt="Haare an den Beinen" />
+  <img src="../Bilder/Natur/billie-body-hair-16.jpg" alt="Haare an den Beinen" data-large="../Bilder/Natur/billie-body-hair-16.jpg" class="small-image"/>
 </figure>
 <figure>
-  <img src="../Bilder/Natur/blue-1.jpg" alt="Intimbehaarung" />
+  <img src="../Bilder/Natur/blue-1.jpg" alt="Intimbehaarung" data-large="../Bilder/Natur/blue-1.jpg" class="small-image"/>
 </figure>
 <figure>
-  <img src="../Bilder/Natur/blue-2.jpg" alt="Zwei Frauen" />
+  <img src="../Bilder/Natur/blue-2.jpg" alt="Zwei Frauen" data-large="../Bilder/Natur/blue-2.jpg" class="small-image" />
 </figure>
 <figure>
-  <img src="../Bilder/Natur/blue-3.jpg" alt="Intimbehaarung" />
+  <img src="../Bilder/Natur/blue-3.jpg" alt="Intimbehaarung" data-large="../Bilder/Natur/blue-3.jpg" class="small-image"/>
 </figure>
 <figure>
-  <img src="../Bilder/Natur/white-1.jpg" alt="Weisse Bikinihose" />
+  <img src="../Bilder/Natur/white-1.jpg" alt="Weisse Bikinihose" data-large="../Bilder/Natur/white-1.jpg" class="small-image"/>
 </figure>
-
+    <div class="modal" id="image-modal">
+      <span class="close" id="close-button">&times;</span>
+      <img class="modal-content" id="large-image">
 </main>
 
 </div>

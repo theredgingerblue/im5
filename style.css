@@ -1,8 +1,10 @@
-e
+html {
+  scroll-behavior: smooth;
+}
 
 h2 {
     font-family: Bely, sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     
   }
   
@@ -35,8 +37,18 @@ section {
 
 p {
   text-align: center;
+  width: 65vw;
+  margin: auto;
 }
 
+section p {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+#titelHaarentfernungHauptseite {
+  margin-top: 5%;
+}
 
 
 #menuToggle
@@ -221,6 +233,7 @@ p {
 
 .gallery img:hover {
   transform: scale(1.05);
+  cursor: zoom-in;
 }
 
 /*Galerie Vergrösserung*/
@@ -236,8 +249,12 @@ p {
   top: 0;
   width: 80%;
   height: 80%;
+  }
 
-}
+  #image-modal {
+    background-color: rgb(203, 197, 234, 0.75);
+    
+  }
 
 .modal-content {
   margin: auto;
@@ -249,9 +266,9 @@ p {
 .close {
   position: absolute;
   top: 10px;
-  right: 10px;
-  color: white;
-  font-size: 30px;
+  right: 20px;
+  color: #EAEAEA;
+  font-size: 50px;
   cursor: pointer;
 }
 
@@ -268,12 +285,14 @@ img {
 }
 
 
-
-/*Buttons*/
+/*Buttons auf Hauptseite*/
 .buttons{
   display: flex;
   justify-content: center;
-  margin: 10%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .custom-btn {
@@ -414,3 +433,13 @@ img {
   text-decoration: none;
   cursor: pointer;
 }
+
+/* Zurück-Button auf Unterseiten (hat den gleichen Style, wie Buttons zu Haarentfernungsmethoden) */
+#zurueckButton {
+  width: 70px;
+  height: 50px;
+  margin-left: 75%;
+  color: #CBC5EA;  
+
+}
+
