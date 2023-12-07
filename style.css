@@ -436,9 +436,9 @@ img {
 
 /* Zurück-Button auf Unterseiten (hat den gleichen Style, wie Buttons zu Haarentfernungsmethoden) */
 #zurueckButton {
-  width: 70px;
+  width: 80px;
   height: 50px;
-  margin-left: 75%;
+  margin-left: 15%;
   color: #CBC5EA;  
 
 }
