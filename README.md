@@ -16,3 +16,4 @@ Die Vision war anfangs ein Scrollytelling. Meine Programmier-Methode dafür hat 
 ChatGPT 
 Codepen.io 
 AOS (Animate On Scroll Library)
+
