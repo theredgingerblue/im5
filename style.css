@@ -442,22 +442,3 @@ img {
   color: #CBC5EA;  
 
 }
-
-/*Media-Queries für verschiedene Bildschirme */
-
-/* Stile für Bildschirmbreite bis 600px */
-@media only screen and (max-width: 600px) {
- h1{
-  font-size: 0.3rem ;
- }
-}
-
-/* Stile für Bildschirmbreite von 601px bis 1024px */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
- 
-}
-
-/* Stile für Bildschirmbreite ab 1025px */
-@media only screen and (min-width: 1025px) {
-  
-}
